@@ -1,10 +1,13 @@
 // Activity 5
 let num = 54
 
-if (num % 3)  {
-    console.log ("Fizz")
+if (num % 3 ==0 && num % 5 ==0)  {
+    console.log ("Fizzbuzz")
 }
-else if (num % 5){
+else if (num % 3 ==0){
+    console.log("Fizz")}
+
+else if (num % 5 ==0){
     console.log("Buzz")
 }
 else{
@@ -13,11 +16,18 @@ else{
 
 // Activity 5
 for (let i=0; i<6; i++) {
-    (Math.floor((Math.random()*30)))
+ num = Math.ceil(Math.random()*30)
+    
+    
+    
+    
     if (i % 7 ==0){
-        console.log(`$[i] is divisible by 7`)
+        console.log(`${i} is divisible by 7`)
+
     } else{
-        console.log(`$[i] is not divisible by 7`)
+
+        console.log(`${i} is not divisible by 7`)
+
     }
 }
 
@@ -63,8 +73,19 @@ if (num_1 % 3 ==0 || num_1 % 5 == 0){
     console.log(`${num_1} cannot be divided `)
 }
 
-declaration();
+for (let i = 0; i < 6; i++) {
 
-function declaration(){
-    console.log(`Declaration`)
+    let num = 0
+    num = Math.ceil(Math.random() * 50)
+  
+  console.log(num) 
 }
+
+
+
+
+// declaration();
+
+// function declaration(){
+//     console.log(`Declaration`)
+// }
